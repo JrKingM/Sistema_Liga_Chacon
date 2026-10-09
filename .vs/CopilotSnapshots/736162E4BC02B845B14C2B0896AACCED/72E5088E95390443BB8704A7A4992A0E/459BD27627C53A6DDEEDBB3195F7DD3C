@@ -1,0 +1,205 @@
+﻿<%@ Page Title="Administrar equipos | Liga Arnaldo Chacon Soto" Language="C#" MasterPageFile="~/Vistas/Plantilla.Master" AutoEventWireup="true" CodeBehind="AdministrarEquipos.aspx.cs" Inherits="SistemaLigaChacon.Vistas.AdministrarEquipos" %>
+
+<asp:Content ID="HeadContent" ContentPlaceHolderID="head" runat="server">
+    <meta name="robots" content="noindex, nofollow" />
+</asp:Content>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="ContenedorPrincipal" runat="server">
+    <div class="app-content-header">
+        <div class="container-fluid">
+            <h1 class="mb-1">Administrar equipos</h1>
+            <p class="text-secondary mb-0">
+                Agrega clubes a una competencia activa de Mayor o Intermedia.
+            </p>
+        </div>
+    </div>
+
+    <section class="content">
+        <div class="container-fluid">
+            <asp:Label ID="lblMensaje" runat="server"
+                CssClass="alert alert-info d-block" Visible="false" />
+
+            <div class="card card-primary card-outline">
+                <div class="card-header">
+                    <h2 class="card-title">Agregar equipo</h2>
+                </div>
+                <div class="card-body">
+                    <div class="row g-3 align-items-end">
+                        <div class="col-12 col-md-3">
+                            <label class="form-label" for="ddlCategoria">
+                                Categoria y temporada
+                            </label>
+                            <asp:DropDownList ID="ddlCategoria" runat="server"
+                                CssClass="form-select" AutoPostBack="true"
+                                OnSelectedIndexChanged="ddlCategoria_SelectedIndexChanged" />
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <label class="form-label" for="txtCodigo">Codigo corto</label>
+                            <asp:TextBox ID="txtCodigo" runat="server"
+                                CssClass="form-control" MaxLength="10" />
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <label class="form-label" for="txtNombre">Nombre del club</label>
+                            <asp:TextBox ID="txtNombre" runat="server"
+                                CssClass="form-control" MaxLength="120" />
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <label class="form-label" for="txtRepresentante">
+                                Representante
+                            </label>
+                            <asp:TextBox ID="txtRepresentante" runat="server"
+                                CssClass="form-control" MaxLength="120" />
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <label class="form-label" for="txtTelefono">Telefono</label>
+                            <asp:TextBox ID="txtTelefono" runat="server"
+                                CssClass="form-control" MaxLength="30" />
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label class="form-label" for="txtLogoUrl">Enlace web del escudo (opcional)</label>
+                            <asp:TextBox ID="txtLogoUrl" runat="server" CssClass="form-control mb-2" Placeholder="https://example.com/logo.png" />
+
+                            <label class="form-label" for="fuLogo">
+                                O arrastra/selecciona una imagen del dispositivo
+                            </label>
+                            <div id="logoDropZone"
+                                class="border border-2 border-secondary border-dashed rounded p-3 text-center">
+                                <asp:FileUpload ID="fuLogo" runat="server"
+                                    CssClass="form-control" accept=".jpg,.jpeg,.png,.gif,image/jpeg,image/png,image/gif" />
+                                <div class="small text-secondary mt-2">
+                                    JPG, PNG o GIF. Maximo 3 MB.
+                                </div>
+                                <img id="logoPreview" alt="Vista previa del escudo"
+                                    class="img-thumbnail mt-2"
+                                    style="max-height: 100px; display: none;" />
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <asp:Button ID="btnCrear" runat="server"
+                                Text="Agregar equipo"
+                                CssClass="btn btn-primary"
+                                OnClick="btnCrear_Click" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Equipos inscritos</h2>
+                </div>
+                <div class="card-body table-responsive">
+                    <asp:GridView ID="gvEquipos" runat="server"
+                        AutoGenerateColumns="false"
+                        CssClass="table table-striped align-middle"
+                        GridLines="None">
+                        <Columns>
+                            <asp:BoundField DataField="Codigo" HeaderText="Codigo" />
+                            <asp:BoundField DataField="Nombre" HeaderText="Equipo" />
+                            <asp:BoundField DataField="Representante" HeaderText="Representante" />
+                            <asp:BoundField DataField="Telefono" HeaderText="Telefono" />
+                            <asp:BoundField DataField="Categoria" HeaderText="Categoria" />
+                            <asp:BoundField DataField="Estado" HeaderText="Estado" />
+                        </Columns>
+                        <EmptyDataTemplate>
+                            <div class="alert alert-light border mb-0">
+                                No hay equipos inscritos en esta competencia.
+                            </div>
+                        </EmptyDataTemplate>
+                    </asp:GridView>
+                </div>
+            </div>
+
+            <div class="card card-outline card-secondary">
+                <div class="card-header">
+                    <h2 class="card-title">Plantilla del equipo</h2>
+                </div>
+                <div class="card-body">
+                    <p class="text-secondary">
+                        Registra jugadores para poder asociarles tarjetas y otras estadisticas.
+                    </p>
+                    <div class="row g-3 align-items-end">
+                        <div class="col-12 col-md-4">
+                            <label class="form-label" for="ddlEquipoPlantilla">Equipo</label>
+                            <asp:DropDownList ID="ddlEquipoPlantilla" runat="server"
+                                CssClass="form-select" AutoPostBack="true"
+                                OnSelectedIndexChanged="ddlEquipoPlantilla_SelectedIndexChanged" />
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <label class="form-label" for="txtNombresJugador">Nombres</label>
+                            <asp:TextBox ID="txtNombresJugador" runat="server"
+                                CssClass="form-control" MaxLength="80" />
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <label class="form-label" for="txtApellidosJugador">Apellidos</label>
+                            <asp:TextBox ID="txtApellidosJugador" runat="server"
+                                CssClass="form-control" MaxLength="100" />
+                        </div>
+                        <div class="col-12 col-md-1">
+                            <label class="form-label" for="txtDorsal">Dorsal</label>
+                            <asp:TextBox ID="txtDorsal" runat="server"
+                                CssClass="form-control" TextMode="Number"
+                                min="1" max="99" />
+                        </div>
+                        <div class="col-12 col-md-1">
+                            <asp:Button ID="btnAgregarJugador" runat="server"
+                                Text="Agregar" CssClass="btn btn-secondary"
+                                OnClick="btnAgregarJugador_Click" />
+                        </div>
+                    </div>
+                    <div class="table-responsive mt-3">
+                        <asp:GridView ID="gvPlantilla" runat="server"
+                            AutoGenerateColumns="false"
+                            CssClass="table table-sm table-striped align-middle"
+                            GridLines="None">
+                            <Columns>
+                                <asp:BoundField DataField="Dorsal" HeaderText="Dorsal" />
+                                <asp:BoundField DataField="Nombres" HeaderText="Nombres" />
+                                <asp:BoundField DataField="Apellidos" HeaderText="Apellidos" />
+                            </Columns>
+                            <EmptyDataTemplate>
+                                <div class="alert alert-light border mb-0">
+                                    Este equipo aun no tiene jugadores registrados.
+                                </div>
+                            </EmptyDataTemplate>
+                        </asp:GridView>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        (function () {
+            var input = document.getElementById('<%= fuLogo.ClientID %>');
+            var zone = document.getElementById('logoDropZone');
+            var preview = document.getElementById('logoPreview');
+
+            function showImage(source) {
+                preview.src = source;
+                preview.style.display = 'inline-block';
+            }
+
+            function showSelectedFile() {
+                if (input.files && input.files.length) {
+                    showImage(URL.createObjectURL(input.files[0]));
+                }
+            }
+
+            zone.addEventListener('dragover', function (event) {
+                event.preventDefault();
+                zone.classList.add('border-primary');
+            });
+            zone.addEventListener('dragleave', function () {
+                zone.classList.remove('border-primary');
+            });
+            zone.addEventListener('drop', function (event) {
+                event.preventDefault();
+                zone.classList.remove('border-primary');
+                if (event.dataTransfer.files.length) {
+                    input.files = event.dataTransfer.files;
+                    showSelectedFile();
+                }
+            });
+        })();
+    </script>
+</asp:Content>

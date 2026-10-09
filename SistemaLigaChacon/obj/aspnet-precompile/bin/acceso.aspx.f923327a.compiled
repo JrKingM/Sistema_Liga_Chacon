@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Vistas/Acceso.aspx" hash="fffffff58834ac70" filehash="cdf4dc0f92282691" flags="110000" assembly="App_Web_rdtiphk5" type="ASP.vistas_acceso_aspx">
+    <filedeps>
+        <filedep name="/Vistas/Acceso.aspx" />
+        <filedep name="/Vistas/Plantilla.Master" />
+    </filedeps>
+</preserve>

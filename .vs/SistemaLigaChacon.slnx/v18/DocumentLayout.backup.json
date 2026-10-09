@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|c:\\users\\usuario\\onedrive\\escritorio\\programas\\proyectos\\todos los proyectos\\sistemaligachacon\\sistemaligachacon\\vistas\\administrarequipos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|solutionrelative:sistemaligachacon\\vistas\\administrarequipos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|c:\\users\\usuario\\onedrive\\escritorio\\programas\\proyectos\\todos los proyectos\\sistemaligachacon\\sistemaligachacon\\vistas\\administrarequipos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|solutionrelative:sistemaligachacon\\vistas\\administrarequipos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|c:\\users\\usuario\\onedrive\\escritorio\\programas\\proyectos\\todos los proyectos\\sistemaligachacon\\sistemaligachacon\\vistas\\posiciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|solutionrelative:sistemaligachacon\\vistas\\posiciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\sistemaligachacon\\documentacion.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|solutionrelative:sistemaligachacon\\documentacion.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\sistemaligachacon\\robots.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|solutionrelative:sistemaligachacon\\robots.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\sistemaligachacon\\vistas\\campeones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|solutionrelative:sistemaligachacon\\vistas\\campeones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\sistemaligachacon\\vistas\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|solutionrelative:sistemaligachacon\\vistas\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\sistemaligachacon\\vistas\\plantilla.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|solutionrelative:sistemaligachacon\\vistas\\plantilla.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\sistemaligachacon\\logica\\campeontemporada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|solutionrelative:sistemaligachacon\\logica\\campeontemporada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\sistemaligachacon\\datos\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D788310-7084-493B-8F3F-32A62D1A0775}|SistemaLigaChacon\\SistemaLigaChacon.csproj|solutionrelative:sistemaligachacon\\datos\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdministrarEquipos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\AdministrarEquipos.aspx.cs",
+              "RelativeDocumentMoniker": "SistemaLigaChacon\\Vistas\\AdministrarEquipos.aspx.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\AdministrarEquipos.aspx.cs",
+              "RelativeToolTip": "SistemaLigaChacon\\Vistas\\AdministrarEquipos.aspx.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAiwEQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T22:15:39.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdministrarEquipos.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\AdministrarEquipos.aspx",
+              "RelativeDocumentMoniker": "SistemaLigaChacon\\Vistas\\AdministrarEquipos.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\AdministrarEquipos.aspx",
+              "RelativeToolTip": "SistemaLigaChacon\\Vistas\\AdministrarEquipos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-10-09T22:09:48.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Campeones.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\Campeones.aspx",
+              "RelativeDocumentMoniker": "SistemaLigaChacon\\Vistas\\Campeones.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\Campeones.aspx",
+              "RelativeToolTip": "SistemaLigaChacon\\Vistas\\Campeones.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-10-09T21:33:18.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "robots.txt",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\robots.txt",
+              "RelativeDocumentMoniker": "SistemaLigaChacon\\robots.txt",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\robots.txt",
+              "RelativeToolTip": "SistemaLigaChacon\\robots.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-08T04:29:56.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Posiciones.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\Posiciones.aspx",
+              "RelativeDocumentMoniker": "SistemaLigaChacon\\Vistas\\Posiciones.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\Posiciones.aspx",
+              "RelativeToolTip": "SistemaLigaChacon\\Vistas\\Posiciones.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-10-08T04:28:00.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DOCUMENTACION.md",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\DOCUMENTACION.md",
+              "RelativeDocumentMoniker": "SistemaLigaChacon\\DOCUMENTACION.md",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\DOCUMENTACION.md",
+              "RelativeToolTip": "SistemaLigaChacon\\DOCUMENTACION.md",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAADMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-08T03:42:19.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConexionBD.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Datos\\ConexionBD.cs",
+              "RelativeDocumentMoniker": "SistemaLigaChacon\\Datos\\ConexionBD.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Datos\\ConexionBD.cs",
+              "RelativeToolTip": "SistemaLigaChacon\\Datos\\ConexionBD.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T02:40:50.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CampeonTemporada.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Logica\\CampeonTemporada.cs",
+              "RelativeDocumentMoniker": "SistemaLigaChacon\\Logica\\CampeonTemporada.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Logica\\CampeonTemporada.cs",
+              "RelativeToolTip": "SistemaLigaChacon\\Logica\\CampeonTemporada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T02:40:39.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\Home.aspx",
+              "RelativeDocumentMoniker": "SistemaLigaChacon\\Vistas\\Home.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\Home.aspx",
+              "RelativeToolTip": "SistemaLigaChacon\\Vistas\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-10-07T22:07:45.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Plantilla.Master",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\Plantilla.Master",
+              "RelativeDocumentMoniker": "SistemaLigaChacon\\Vistas\\Plantilla.Master",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Programas\\Proyectos\\TODOS LOS PROYECTOS\\SistemaLigaChacon\\SistemaLigaChacon\\Vistas\\Plantilla.Master",
+              "RelativeToolTip": "SistemaLigaChacon\\Vistas\\Plantilla.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-10-07T22:07:00.795Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

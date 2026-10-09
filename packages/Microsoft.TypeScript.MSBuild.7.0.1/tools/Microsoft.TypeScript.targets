@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--
+    Empty stub file for Microsoft.TypeScript.targets.
+    This satisfies the import in Microsoft.TypeScript.MSBuild.Targets without doing anything.
+    All actual compilation logic is in Microsoft.TypeScript.MSBuild.Targets.
+  -->
+</Project>

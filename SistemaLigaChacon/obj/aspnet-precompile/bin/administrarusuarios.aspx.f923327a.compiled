@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Vistas/AdministrarUsuarios.aspx" hash="fffffff58834ac70" filehash="2a7644627fd65169" flags="110000" assembly="App_Web_rdtiphk5" type="ASP.vistas_administrarusuarios_aspx">
+    <filedeps>
+        <filedep name="/Vistas/AdministrarUsuarios.aspx" />
+        <filedep name="/Vistas/Plantilla.Master" />
+    </filedeps>
+</preserve>
